@@ -9,15 +9,14 @@ from dotenv import load_dotenv
 
 load_dotenv()
 TOKEN = os.getenv('DISCORD_TOKEN')
-GUILD = os.getenv('DISCORD_GUILD')
-CAP_ID = 150368048627318786
-MY_ID = 743531706245578762
+CAP_ID = os.getenv('CAP_ID')
+MY_ID = os.getenv('MY_ID')
 
 client = discord.Client()
 
 @client.event
 async def on_message(message):
-    if message.author.id != CAP_ID:
+    if message.author.id != MY_ID:
         return
 
     capWarning = "***Some or all of the content shared in the above message may be misleading***"
