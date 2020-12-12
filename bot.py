@@ -1,4 +1,7 @@
 
+# HELPFUL LINK FOR HEROKU
+# https://stackoverflow.com/questions/52247301/how-do-i-host-my-discord-py-bot-on-heroku
+
 import os
 
 import discord
