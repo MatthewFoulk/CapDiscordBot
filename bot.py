@@ -9,13 +9,14 @@ from dotenv import load_dotenv
 
 load_dotenv()
 TOKEN = os.getenv('DISCORD_TOKEN')
-CAP_ID = os.getenv('CAP_ID')
-MY_ID = os.getenv('MY_ID')
+CAP_ID = int(os.getenv('CAP_ID'))
+MY_ID = int(os.getenv('MY_ID'))
 
 client = discord.Client()
 
 @client.event
 async def on_message(message):
+
     if message.author.id != MY_ID:
         return
 
