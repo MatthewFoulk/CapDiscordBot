@@ -1,4 +1,4 @@
-# UMD Professor Ratings
+#  CapBot
 > Discord bot that reponds with disclaimer to a specific user
 
 ## Table of Contents
