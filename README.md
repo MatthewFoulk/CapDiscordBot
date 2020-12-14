@@ -7,6 +7,7 @@
 * [Skills](#skills)
 * [Status](#status)
 * [Contribution](#contribution)
+* [Helpful Resources](#helpful-resources)
 * [Meta](#meta)
 * [Reflection](#reflection)
 
@@ -39,6 +40,12 @@ our worksheets are online and cannot have a "back").
 3. Commit your changes (`git commit -am 'Add some fooBar'`)
 4. Push to the branch (`git push origin feature/fooBar`)
 5. Create a new Pull Request
+
+## Helpful Resources
+
+- [RealPython.com: How to Make a Discord Bot Python](https://realpython.com/how-to-make-a-discord-bot-python/)
+- [StackOverflow.com: How do I host my Discord.py Bot on Heroku?](https://stackoverflow.com/questions/52247301/how-do-i-host-my-discord-py-bot-on-heroku)
+
 
 ## Meta
 
