@@ -43,7 +43,7 @@ our worksheets are online and cannot have a "back").
 
 ## Helpful Resources
 
-- [RealPython.com: How to Make a Discord Bot Python](https://realpython.com/how-to-make-a-discord-bot-python/)
+- [RealPython.com: How to Make a Discord Bot in Python](https://realpython.com/how-to-make-a-discord-bot-python/)
 - [StackOverflow.com: How do I host my Discord.py Bot on Heroku?](https://stackoverflow.com/questions/52247301/how-do-i-host-my-discord-py-bot-on-heroku)
 
 
