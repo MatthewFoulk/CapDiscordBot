@@ -17,7 +17,7 @@ client = discord.Client()
 @client.event
 async def on_message(message):
 
-    if message.author.id != CAP_ID or message.content.lower() != "!cap":
+    if message.content.lower() != "!cap":
         return
 
     capWarning = "***Some or all of the content shared in the above messages may be misleading***"
