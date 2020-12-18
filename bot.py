@@ -52,7 +52,7 @@ async def communism(ctx):
     global discriminate
     discriminate = False
 
-    message = "*Commmunism mode is now activated*"
+    message = "*Communism mode is now activated*"
     await ctx.send(message)
 
 
